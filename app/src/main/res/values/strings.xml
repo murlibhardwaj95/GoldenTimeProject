@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">GoldenTime</string>
+    <string name="exit_message">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="facebook_app_id">548226039018549</string>
+    <string name="fb_login_protocol_scheme">fb548226039018549</string>
+    <string name="loading">Loading.</string>
+    <string name="login_msg">Login Successfully</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="error">Error</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email_id">Email Id</string>
+    <string name="forget_password">Forget Password ?</string>
+    <string name="login">LOGIN</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="user_id">User Id</string>
+    <string name="password">Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next">Next</string>
+    <string name="name">Name</string>
+    <string name="dob">DOB</string>
+    <string name="dob_type">DOB : DD/MM/YYYY </string>
+    <string name="gender">Gender</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="board">Board</string>
+    <string name="school">School</string>
+    <string name="email_pattern">Please enter valid email</string>
+    <string name="user_id_validation">Please enter User Id</string>
+    <string name="password_validation">Please enter password</string>
+    <string name="or_connect_with">or Connect with</string>
+    <string name="enter_name">Please enter your name</string>
+    <string name="enter_email">Please enter email id</string>
+    <string name="valid_email">Please enter valid email</string>
+    <string name="enter_gender">Please select gender</string>
+    <string name="enter_address">Please enter your address</string>
+    <string name="enter_country">Please enter your country</string>
+    <string name="enter_state">Please enter your state</string>
+    <string name="enter_dob">Please enter your date of birth</string>
+    <string name="enter_number">Please enter mobile number</string>
+    <string name="valid_number">Please enter a valid mobile number</string>
+    <string name="enter_board">Please enter board</string>
+    <string name="enter_school">Please enter school</string>
+    <string name="api_error_msg">Please try after sometime</string>
+    <string name="please_select_usertype">Please select usertype</string>
+    <string name="logout_msg">Are you sure you want to Logout ?</string>
+    <string name="is_loading">is Loading...</string>
+    <string name="check_internet_connection">Check internet connection</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="search_here">Search Here</string>
+    <string name="no_data_found">There is no data</string>
+    <string name="books">Books</string>
+    <string name="search">Search</string>
+    <string name="books_series">Books Series</string>
+    <string name="chapter">Chapter</string>
+    <string name="classes">Classes</string>
+    <string name="there_is_no_data">There is no data</string>
+    <string name="please_try_after_sometime">Please try after sometime</string>
+    <string name="fill_in_the_blanks">Fill in the Blanks</string>
+    <string name="true_or_false">True or False</string>
+    <string name="choose_the_correct_answer">Choose the Correct Answer</string>
+    <string name="check">Check</string>
+    <string name="result">result</string>
+    <string name="done">Done</string>
+    <string name="previous">Previous</string>
+
+
+    <!--State list india-->
+    <string-array name="india_states">
+        <item>Andaman and Nicobar Islands</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Delhi</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttaranchal</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration.LoginInformationFragment">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_20sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/et_userid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:hint="@string/user_id"
+                android:maxLength="50"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableLeft="@drawable/name_icon"
+                android:padding="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_userid"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableLeft="@drawable/password_icon_small"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLength="50"
+                android:padding="@dimen/_10sdp"
+                android:singleLine="true" />
+
+            <Spinner
+                android:id="@+id/spinner_usertype"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_below="@+id/et_password"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:spinnerMode="dialog"
+                />
+
+            <EditText
+                android:id="@+id/et_board"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner_usertype"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableLeft="@drawable/board_icon"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:hint="@string/board"
+                android:maxLength="100"
+                android:padding="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_school"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_board"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:hint="@string/school"
+                android:drawablePadding="@dimen/_10sdp"
+                android:drawableLeft="@drawable/school_icon"
+                android:maxLength="100"
+                android:padding="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn_sign_up"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_school"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/login_btn"
+                android:paddingBottom="@dimen/_8sdp"
+                android:text="@string/sign_up"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

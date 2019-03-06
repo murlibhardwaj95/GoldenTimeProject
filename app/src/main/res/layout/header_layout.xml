@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/header_background"
+    android:layout_height="@dimen/_35sdp">
+
+    <ImageView
+        android:id="@+id/iv_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:src="@drawable/home_icon"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:src="@drawable/back_icon"
+        android:visibility="gone"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/iv_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/logout_icon"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

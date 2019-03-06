@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/project_backgroud_xhdpi">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:scaleX="1.1"
+        android:src="@drawable/login_page_top" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="139dp"
+        android:layout_height="84dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:src="@drawable/project_logo" />
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:elevation="10dp"
+        android:src="@drawable/login_user" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/logindetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_20sdp">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="363dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/et_userid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:drawableLeft="@drawable/icon_email"
+                android:drawablePadding="@dimen/_5sdp"
+                android:hint="@string/user_id"
+                android:maxLength="50"
+                android:padding="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black" />
+
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_userid"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:drawableLeft="@drawable/icon_password"
+                android:drawablePadding="@dimen/_5sdp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLength="50"
+                android:padding="@dimen/_10sdp"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/black" />
+
+            <TextView
+                android:id="@+id/tv_forgetPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_password"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:text="@string/forget_password"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_forgetPassword"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@drawable/login_btn"
+                android:paddingBottom="@dimen/_8sdp"
+                android:text="@string/login"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+<!--
+            <LinearLayout
+                android:id="@+id/connects"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_login"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:id="@+id/connect"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/_6sdp"
+                    android:text="@string/or_connect_with"
+                    android:textColor="@android:color/darker_gray" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_weight="1"
+                    android:background="@android:color/darker_gray" />
+
+            </LinearLayout>
+-->
+
+           <!-- <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/connects"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <com.google.android.gms.common.SignInButton
+                    android:id="@+id/btn_sign_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_below="@+id/connects"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+
+                <com.facebook.login.widget.LoginButton
+                    android:id="@+id/btn_sign_up_fb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/connects"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_toRightOf="@+id/btn_sign_in"
+                    android:layout_weight="1"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/google_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/google_btn"
+                    android:layout_marginLeft="@dimen/_20sdp" />
+
+                <Button
+                    android:id="@+id/fb_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/facebook_btn"
+                    android:layout_marginLeft="@dimen/_5sdp" />
+            </LinearLayout>-->
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

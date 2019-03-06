@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "863939071606",
+    "firebase_url": "https://goldentime-f791c.firebaseio.com",
+    "project_id": "goldentime-f791c",
+    "storage_bucket": "goldentime-f791c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863939071606:android:a4429fca2184c3b2",
+        "android_client_info": {
+          "package_name": "com.goldentime.syon.goldentime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863939071606-i73h8mjgjeq87d6mhplf06u84e43f8n3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpUezHsM8NeOXrTMNupsw6hwxGbDTbpJQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

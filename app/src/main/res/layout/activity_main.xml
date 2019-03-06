@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linar_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MainActivity">
+
+    <include layout="@layout/header_layout" />
+
+    <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:background="@drawable/serachbar_background"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_serach_bar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:hint="@string/search_here" />
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:layout_weight="5"
+            android:background="@android:color/darker_gray"
+            android:paddingTop="3dp"
+            android:src="@drawable/search_icon"/>
+    </LinearLayout>
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/subject_background"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/tv_no_data_found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/there_is_no_data"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
+</LinearLayout>

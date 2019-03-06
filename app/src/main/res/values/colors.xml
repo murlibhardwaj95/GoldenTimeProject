@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="header_background">#F39C12</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_500">#c6cad1</color>
+    <color name="blue">#2ebcff</color>
+    <color name="app_blue">#1571B4</color>
+    <color name="activities_tab_selected_blue">#2C72BC</color>
+    <color name="transparent_blue">#502C72BC</color>
+    <color name="activities_tab_unselected_blue">#8BD9FE</color>
+    <color name="transparent">#754b4b4b</color>
+    <color name="white_transparent">#80ffffff</color>
+    <color name="black_transparent">#80000000</color>
+    <color name="grey">#ADADAD</color>
+    <color name="black">#000000</color>
+    <color name="tac">#ffffff</color>
+    <color name="win_green">#59ff00</color>
+    <color name="lose_red">#ff3c00</color>
+    <color name="transparent_black">#65000000</color>
+</resources>
